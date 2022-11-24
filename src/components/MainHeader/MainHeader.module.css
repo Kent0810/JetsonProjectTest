@@ -1,0 +1,29 @@
+.main-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 0 2rem;
+}
+
+.main-header h1 {
+    color: #000000;
+}
+
+@media (max-width: 768px) {
+    .main-header {
+        padding: 0;
+        justify-content: left;
+    }
+
+    .main-header h1 {
+        margin-right: 20px;
+        font-size: 1.3rem;
+        font-family: 'Inter', sans-serif;
+    }
+}
